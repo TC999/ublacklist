@@ -1,6 +1,9 @@
 import { exportAsMessages } from "../helpers.ts";
 
 export default exportAsMessages({
+  extensionName: 'uBlacklist',
+    extensionDescription: '在谷歌的搜索结果中屏蔽特定的网站显示。',
+  lang: 'zh-cn',
   cancelButton: '取消',
   clouds_dropboxSync: '使用 Dropbox 同步',
   clouds_dropboxSyncDescription: '同步文件将会保存在 /Apps/uBlacklist/',
@@ -15,9 +18,6 @@ export default exportAsMessages({
   content_singleSiteBlocked: 'uBlacklist 已经屏蔽了 1 个网站',
   content_unblockSiteLink: '不再屏蔽这个网站',
   error: '出现错误: $1',
-  extensionDescription: '在谷歌的搜索结果中屏蔽特定的网站显示。',
-  extensionName: 'uBlacklist',
-  lang: 'zh-cn',
   okButton: '确定',
   options_aboutDocumentation: '文档',
   options_aboutPrivacyPolicy: '隐私政策',
@@ -167,7 +167,7 @@ export default exportAsMessages({
   popup_pageURLLabel: '页面地址',
   popup_pathDepth: '深度',
   popup_removedRulesLabel: '要移除的规则',
-  popup_serpInfoMode_showBlockedResults: 'Show blocked search results',
+  popup_serpInfoMode_showBlockedResults: '显示被屏蔽的搜索结果',
   popup_unblockSiteButton: '移除',
   popup_unblockSiteTitle: '不再屏蔽这个网站',
   popup_unblockingRulesLabel: '解除屏蔽此条目的规则',

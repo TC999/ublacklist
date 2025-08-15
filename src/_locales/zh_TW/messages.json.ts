@@ -1,6 +1,9 @@
 import { exportAsMessages } from "../helpers.ts";
 
 export default exportAsMessages({
+  extensionName: 'uBlacklist',
+    extensionDescription: '封鎖 Google 搜尋結果中的特定網站結果',
+  lang: 'zh-tw',
   cancelButton: '取消',
   clouds_dropboxSync: '與 Dropbox 同步',
   clouds_dropboxSyncDescription: '同步檔案將會儲存在 /Apps/uBlacklist/',
@@ -15,9 +18,6 @@ export default exportAsMessages({
   content_singleSiteBlocked: 'uBlacklist 已經封鎖 1 個網站',
   content_unblockSiteLink: '解除封鎖這個網站',
   error: '錯誤：$1',
-  extensionDescription: '封鎖 Google 搜尋結果中的特定網站結果',
-  extensionName: 'uBlacklist',
-  lang: 'zh-tw',
   okButton: '確定',
   options_aboutDocumentation: '文件',
   options_aboutPrivacyPolicy: '隱私權保護政策',
