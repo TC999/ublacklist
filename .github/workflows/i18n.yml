@@ -1,0 +1,25 @@
+name: Locale Sync
+on:
+  workflow_dispatch:
+
+jobs:
+  Sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Locale Sync
+        run: python scripts/sync_locales.py
+
+      - name: Set committer
+        run: |
+          git config --global user.email "actions@github.com"
+          git config --global user.name "actions-bot"
+
+      - name: Push
+        run: |
+          git add .
+          git commit -m "Locale Sync"
+          git push
